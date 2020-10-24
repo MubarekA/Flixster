@@ -13,29 +13,28 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
-        tools:ignore="ContentDescription"
         tools:srcCompat="@tools:sample/avatars" />
 
     <TextView
         android:id="@+id/tvTitle"
-        android:layout_width="wrap_content"
+        android:layout_width="148dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="18dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="14dp"
+        android:layout_toEndOf="@+id/ivPoster"
         android:textSize="24sp"
         tools:text="Hard Kill" />
 
     <TextView
         android:id="@+id/tvOverview"
-        android:layout_width="300dp"
-        android:layout_height="112dp"
+        android:layout_width="263dp"
+        android:layout_height="wrap_content"
         android:layout_below="@+id/tvTitle"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="-23dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="17dp"
         android:layout_toEndOf="@+id/ivPoster"
         android:textSize="14sp"
         tools:text="The work of billionaire tech CEO Donovan Chalmers is so valuable that he hires mercenaries to protect it, and a terrorist group kidnaps his daughter just to get it." />
